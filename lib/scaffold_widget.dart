@@ -12,29 +12,13 @@ class _ScaffoldWidgetState extends State<ScaffoldWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Scaffold Example'),
       ),
-      body: Center(
-        child: Text('Hello, Flutter!'),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          print('Button Pressed');
-        },
-        child: Icon(Icons.add),
+          onPressed: () {
+          },
       ),
-      drawer: Drawer(
-        child: ListView(
-          children: <Widget>[
-            DrawerHeader(
-              child: Text('Header'),
-            ),
-            ListTile(
-              title: Text('Item 1'),
-              onTap: () {},
-            ),
-          ],
-        ),
+        ],
       ),
     );
 
